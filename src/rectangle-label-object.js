@@ -1,6 +1,6 @@
 /* eslint no-unused-vars: 0 */
 
-const fabric = require("fabric-coachroom");
+const fabric = require("fabric-coachroom").fabric;
 
 class RectangleLabelObject {
   constructor(canvas, text, rectProps, textProps) {
