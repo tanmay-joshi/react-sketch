@@ -647,6 +647,7 @@ class SketchField extends PureComponent {
     let selectedTool = this._tools[tool];
     if (selectedTool) selectedTool.configureCanvas(this.props);
     this._selectedTool = selectedTool;
+    console.log(this._selectedTool);
 
     // Control resize
     window.addEventListener("resize", this._resize, false);
