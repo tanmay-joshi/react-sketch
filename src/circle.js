@@ -3,7 +3,7 @@
 import FabricCanvasTool from "./fabrictool";
 import { linearDistance } from "./utils";
 
-const fabric = require("fabric-coachroom").fabric;
+const fabric = require("fabric-coachroom");
 
 class Circle extends FabricCanvasTool {
   configureCanvas(props) {

@@ -2,7 +2,7 @@
 
 import FabricCanvasTool from "./fabrictool";
 
-const fabric = require("fabric-coachroom").fabric;
+const fabric = require("fabric-coachroom");
 
 class Arrow extends FabricCanvasTool {
   configureCanvas(props) {
