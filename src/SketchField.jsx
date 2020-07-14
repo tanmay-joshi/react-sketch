@@ -628,6 +628,7 @@ class SketchField extends PureComponent {
   };
 
   componentDidMount = () => {
+    console.log("mounting mounting mounting");
     let { tool, value, undoSteps, defaultValue, backgroundColor } = this.props;
 
     let canvas = (this._fc = new fabric.Canvas(
@@ -690,6 +691,7 @@ class SketchField extends PureComponent {
     window.removeEventListener("resize", this._resize);
 
   componentDidUpdate = (prevProps, prevState) => {
+    console.log("yesyes yes yes");
     if (
       this.state.parentWidth !== prevState.parentWidth ||
       this.props.width !== prevProps.width ||
