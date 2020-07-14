@@ -701,7 +701,11 @@ class SketchField extends PureComponent {
       this._resize();
     }
 
-    if (this.props.tool !== prevProps.tool) {
+    if (
+      this.props.tool !== prevProps.tool ||
+      this.props.lineColor !== prevProps.lineColor ||
+      this.props.lineWidth !== prevProps.lineWidth
+    ) {
       this._selectedTool = this._tools[this.props.tool];
       //Bring the cursor back to default if it is changed by a tool
       this._fc.defaultCursor = "default";
