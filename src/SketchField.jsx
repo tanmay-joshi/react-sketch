@@ -15,7 +15,7 @@ import Tool from "./tools";
 import RectangleLabel from "./rectangle-label";
 import DefaultTool from "./defaul-tool";
 
-const fabric = require("fabric-coachroom").fabric;
+const fabric = require("fabric-coachroom");
 
 /**
  * Sketch Tool based on FabricJS for React Applications
